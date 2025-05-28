@@ -49,7 +49,6 @@ It uses modern tools and libraries like:
 ## ✉️ EmailJS Setup
 
 To make the email feature work:
-
 - Sign up at [https://emailjs.com](https://emailjs.com)
 - Create a service and a template
 - Replace these emailjs keys in AddEmployees.jsx:
