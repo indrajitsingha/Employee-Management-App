@@ -2,6 +2,10 @@
 
 This is a simple web app built with **React** and **Vite** that helps you add and view employee details.
 
+🚀 Deployed on Netlify click to see live :
+🔗 Live Demo: https://eloquent-brioche-b155b9.netlify.app
+
+
 It uses modern tools and libraries like:
 
 - **React + Vite** – Fast and modern development setup
@@ -56,6 +60,7 @@ To make the email feature work:
   sendemailcontent,
   "your_public_key"
   );
+
   ```
 
   ```
