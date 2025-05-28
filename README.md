@@ -5,7 +5,6 @@ This is a simple web app built with **React** and **Vite** that helps you add an
 🚀 Deployed on Netlify click to see live :
 🔗 Live Demo: https://eloquent-brioche-b155b9.netlify.app
 
-
 It uses modern tools and libraries like:
 
 - **React + Vite** – Fast and modern development setup
@@ -53,14 +52,4 @@ To make the email feature work:
 
 - Sign up at [https://emailjs.com](https://emailjs.com)
 - Create a service and a template
-- Replace these in `AddEmployees.jsx`:
-  emailjs.send(
-  "your_service_id",
-  "your_template_id",
-  sendemailcontent,
-  "your_public_key"
-  );
-
-  ```
-
-  ```
+- Replace these emailjs keys in AddEmployees.jsx:
