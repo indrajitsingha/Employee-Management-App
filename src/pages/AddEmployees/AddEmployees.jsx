@@ -51,6 +51,8 @@ const AddEmployees = () => {
 
         const sendemailcontent = {
             name: data.name,
+            // email: "indrajitdgp19@gamil.com",
+            to_email: data.email,
             message: "Employees Added Successfully",
             ...data // include the rest of the form data if needed
         };
@@ -58,7 +60,7 @@ const AddEmployees = () => {
 
 
         // Send email using EmailJS
-        emailjs.send('service_be3m97e', 'template_fdj26zd', sendemailcontent, 'tcc7Ht5swxuFGaNfv')
+        emailjs.send('service_be3m97e', 'template_bqwjl0l', sendemailcontent, 'tcc7Ht5swxuFGaNfv')
             .then(() => console.log("Email sent"))
             .catch(err => console.error("Email failed", err));
     };
